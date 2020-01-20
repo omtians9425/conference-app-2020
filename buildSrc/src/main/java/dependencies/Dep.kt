@@ -221,4 +221,9 @@ object Dep {
     object Insetter {
         val insetter = "dev.chrisbanes:insetter-ktx:0.2.0"
     }
+
+    object Store {
+        val version = "4.0.0-alpha01"
+        val store = "com.dropbox.mobile.store:store4:$version"
+    }
 }
