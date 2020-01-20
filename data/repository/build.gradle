@@ -48,6 +48,8 @@ kotlin {
 
                 implementation Dep.Dagger.core
                 implementation Dep.Dagger.androidSupport
+
+                implementation Dep.Store.store
             }
         }
         commonTest.dependencies {
